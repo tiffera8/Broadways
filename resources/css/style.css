@@ -9,9 +9,6 @@ h1, h2, h3 {
 .header {
   background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
   background-position: center;
-  height: 626px;
-  width: 644;
-  cursor: zoom-in;
   text-align: center;
   color: white;
 }
@@ -20,9 +17,17 @@ h1, h2, h3 {
 font-size: 70px;
 }
 
-.btn-nav {
-  font-size: 18px;
+a {
   color: white;
+}
+
+.btn-nav header {
+  font-size: 18px;
+}
+
+
+.btn-nav footer {
+  font-size: 11px;
 }
 
 .system {
