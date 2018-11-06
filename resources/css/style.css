@@ -1,62 +1,48 @@
 * {
   font-family: Helvetica, sans-serif;
-  text-align: center;
-}
-
-h1 {
-  font-size: 70px;
-}
-
-h2 {
-  font-size: 32px;
-}
-
-h3 {
-  font-size: 23px;
-}
-
-a {
-  font-size: 18px;
-}
-
-p {
-  font-size: 14px;
 }
 
 h1, h2, h3 {
   font-weight: bold;
 }
 
-h1, a {
+.header {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+  text-align: center;
   color: white;
 }
 
-#header {
-  background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
-  background-position: center;
-  background-size: cover;
-  height: 1280px;
+.head h1 {
+font-size: 70px;
 }
 
-#header-content {
-  position: center;
-  size: cover;
-  height: 70px;
-  margin: 0 auto;
+.btn-nav {
+  font-size: 18px;
+  color: white;
+}
+
+.system {
   text-align: center;
 }
 
-#newyork {
-  background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
-  background-position: center;
-  background-size: cover;
-  height: 120px;
+.system h2 {
+  font-size; 32px;
 }
 
-#newyork-content {
-  position: center;
-  size: cover;
-  height: 70px;
-  margin: 0 auto;
-  text-align: center;
+.system h3 {
+  font-size: 23px;
+}
+
+.system-detail {
+  font-size: 14px;
+}
+
+.header h2 {
+  font-size: 23px;
+}
+
+.footer {
+  background-color: dimgray;
+  font-size: 11px;
+  color: white;
 }
